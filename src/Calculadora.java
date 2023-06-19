@@ -38,9 +38,7 @@ public class Calculadora extends CalculadoraView {
         resultado = resultado.multiply(saldo);
         resultado = resultado.setScale(2,RoundingMode.HALF_EVEN);
         txtResultado.setText(resultado.toPlainString());
-
     }
-
     @Override
     protected void btnLimparClick(ActionEvent ev) {
         txtTaxaJuros.setText("");

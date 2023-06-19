@@ -1,8 +1,6 @@
-import java.awt.event.ActionEvent;
-
 public interface IConta {
-    void btnSacarClick(ActionEvent ev);
-    void btnDepositarClick(ActionEvent ev);
-    void btnTransferirClick(ActionEvent ev) ;
+    void sacar(double valor);
+    void depositar(double valor);
+    void transferir(double valor, String contaDestino) ;
 
 }
